@@ -4,13 +4,14 @@ Learning Python is a small personal repository of tutorials guiding you through 
 Make the consideration that this is opinionated and how I would choose to learn Python again.
 
 ## What to Expect
-Brief description
+Python file showing the features in the tutorial
 Task to learn about the thing
 An example of the thing
 
 ## Contents
 ### Tutorial 1
-Learn the basic types that Python has and what they do.
+Learn about variables, basic types and comments.
+You will learn about the basic types and what they do.
 
 ### Tutorial 2
 Learn about basic output and the type function.
@@ -32,3 +33,4 @@ Learn about loops such as for and while.
 - scope (global and local)
 - string formatting
 - comments
+- lists
