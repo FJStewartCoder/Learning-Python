@@ -10,11 +10,12 @@ An example of the thing
 
 ## Contents
 ### Tutorial 1
-Learn about variables, basic types and comments.
+Learn about variables, basic types and comments.  
 You will learn about the basic types and what they do.
 
 ### Tutorial 2
-Learn about basic output and the type function.
+Learn about basic output and the type function.  
+You will learn how to output data and variables and how to find out what type you variables are.
 
 ### Tutorial 3
 Learn about the basic operators that Python has and how you can use them.
