@@ -2,11 +2,7 @@
 ## Introduction
 Learning Python is a small personal repository of tutorials guiding you through learning the basics of Python.  
 Make the consideration that this is opinionated and how I would choose to learn Python again.  
-<<<<<<< HEAD
-If you are looking for the latest/upcoming tutorials, check out the "latest" branch.
-=======
 If you are looking for the most recent, in development tutorials, check out the "latest" branch.
->>>>>>> latest
 
 ## What to Expect
 A Python file called "tutorial.py" showing off the features in the tutorial.  
