@@ -75,3 +75,4 @@ You will learn when and how to use sets and dictionaries.
 - relevant in-built functions should be included in each tutorial
 - e.g len(), range() in loops
 - add additional resources
+- add some mini-projects to test the skills (Tutorial-Password-Manager)
