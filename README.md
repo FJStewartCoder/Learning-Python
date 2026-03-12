@@ -15,6 +15,11 @@ Each task is designed around experimentation rather than creating a specific thi
 A second Python file called "example.py" showing an example of how to use the task.  
 The examples are mostly bare until mini-projects are the tasks.  
 
+## More Resources
+This tutorial does not cover everything Python. However, it covers everything that I believe that you need to make a program.  
+You can find additional resources at the following sources:  
+[PUT SOME LINKS HERE]()
+
 ## Contents
 ### Tutorial 1
 Learn about variables, basic types and comments.  
@@ -41,32 +46,32 @@ Learn more about the list and tuple data types.
 You will learn about list indexing, list slicing and multi-dimensional lists.
 
 ### Tutorial 7
-Learn about the set and dictionary data types.
+Learn about the set and dictionary data types.  
 You will learn when and how to use sets and dictionaries.
 
 ### Tutorial 8*
-- built-in functions per type (such as len())
-
-### Tutorial 9*
 - inputs
 - type casting
 
-### Tutorial 10*
+### Tutorial 9*
 - string formatting
+- string manipulation (slicing and string functions)
 
-### Tutorial 11*
+### Tutorial 10*
 - functions
 - scope (global and local)
 
-### Tutorial 12*
+### Tutorial 11*
 - file handling
 
-### Tutorial 13*
+### Tutorial 12*
 - modules
 
-### Tutorial 14*
+### Tutorial 13*
 - error handling
 
-### Tutorial 15*
-- THIS SHOULD HAVE BEEN COVERED IN TUTORIAL 1
-- variable unpacking
+### Notes/To Do
+- variable unpacking should be included in tutorial 1
+- relevant in-built functions should be included in each tutorial
+- e.g len(), range() in loops
+- add additional resources
