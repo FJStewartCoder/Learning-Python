@@ -65,3 +65,6 @@ You will learn about list indexing, list slicing and multi-dimensional lists.
 
 ### Tutorial 15*
 - sets, dictionaries and tuples
+
+### Tutorial 16*
+- variable unpacking
