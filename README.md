@@ -15,6 +15,11 @@ Each task is designed around experimentation rather than creating a specific thi
 A second Python file called "example.py" showing an example of how to use the task.  
 The examples are mostly bare until mini-projects are the tasks.  
 
+## More Resources
+This tutorial does not cover everything Python. However, it covers everything that I believe that you need to make a program.  
+You can find additional resources at the following sources:  
+[PUT SOME LINKS HERE]()
+
 ## Contents
 ### Tutorial 1
 Learn about variables, basic types and comments.  
@@ -39,3 +44,11 @@ You will learn how and when to use both the for and while loop as well as manipu
 ### Tutorial 6
 Learn more about the list and tuple data types.  
 You will learn about list indexing, list slicing and multi-dimensional lists.
+
+### Tutorial 7
+Learn about the set and dictionary data types.  
+You will learn when and how to use sets and dictionaries.
+
+### Tutorial 8
+Learn about inputs and type casting.
+You will learn how to get user input and how to change the type of data.
