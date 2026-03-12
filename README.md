@@ -2,7 +2,11 @@
 ## Introduction
 Learning Python is a small personal repository of tutorials guiding you through learning the basics of Python.  
 Make the consideration that this is opinionated and how I would choose to learn Python again.  
+<<<<<<< HEAD
 If you are looking for the latest/upcoming tutorials, check out the "latest" branch.
+=======
+If you are looking for the most recent, in development tutorials, check out the "latest" branch.
+>>>>>>> latest
 
 ## What to Expect
 A Python file called "tutorial.py" showing off the features in the tutorial.  
@@ -33,4 +37,9 @@ Learn about conditional statements such as if, elif and else.
 You will learn and use conditional statements to run code based on a condition being true.
 
 ### Tutorial 5
-Learn about loops such as for and while.
+Learn about loops such as for and while.  
+You will learn how and when to use both the for and while loop as well as manipulating them.
+
+### Tutorial 6
+Learn more about the list and tuple data types.  
+You will learn about list indexing, list slicing and multi-dimensional lists.
