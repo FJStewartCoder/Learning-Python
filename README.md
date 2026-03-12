@@ -32,18 +32,19 @@ Learn about conditional statements such as if, elif and else.
 You will learn and use conditional statements to run code based on a condition being true.
 
 ### Tutorial 5
-Learn about loops such as for and while.
+Learn about loops such as for and while.  
+You will learn how and when to use both the for and while loop as well as manipulating them.
 
 ### Tutorial 6*
-Lists
-Tuples
+- Lists
+- Tuples
 
 Learn more about the list data type.  
 You will learn about list indexing, list slicing and multi-dimensional lists.
 
 ### Tutorial 7*
-Sets
-Dictionaries
+- Sets
+- Dictionaries
 
 ### Tutorial 8*
 - built-in functions per type (such as len())
