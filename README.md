@@ -49,9 +49,9 @@ You will learn about list indexing, list slicing and multi-dimensional lists.
 Learn about the set and dictionary data types.  
 You will learn when and how to use sets and dictionaries.
 
-### Tutorial 8*
-- inputs
-- type casting
+### Tutorial 8
+Learn about inputs and type casting.
+You will learn how to get user input and how to change the type of data.
 
 ### Tutorial 9*
 - string formatting
