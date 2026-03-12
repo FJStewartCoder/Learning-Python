@@ -40,9 +40,9 @@ You will learn how and when to use both the for and while loop as well as manipu
 Learn more about the list and tuple data types.  
 You will learn about list indexing, list slicing and multi-dimensional lists.
 
-### Tutorial 7*
-- Sets
-- Dictionaries
+### Tutorial 7
+Learn about the set and dictionary data types.
+You will learn when and how to use sets and dictionaries.
 
 ### Tutorial 8*
 - built-in functions per type (such as len())
