@@ -34,28 +34,33 @@ You will learn and use conditional statements to run code based on a condition b
 ### Tutorial 5
 Learn about loops such as for and while.
 
-### Tutorial 6
+### Tutorial 6*
+Lists
+Tuples
+
 Learn more about the list data type.  
 You will learn about list indexing, list slicing and multi-dimensional lists.
 
 ### Tutorial 7*
-- inputs
-- type casting
+Sets
+Dictionaries
 
 ### Tutorial 8*
 - built-in functions per type (such as len())
 
 ### Tutorial 9*
-- scope (global and local)
+- inputs
+- type casting
 
 ### Tutorial 10*
 - string formatting
 
 ### Tutorial 11*
-- file handling
+- functions
+- scope (global and local)
 
 ### Tutorial 12*
-- functions
+- file handling
 
 ### Tutorial 13*
 - modules
@@ -64,7 +69,5 @@ You will learn about list indexing, list slicing and multi-dimensional lists.
 - error handling
 
 ### Tutorial 15*
-- sets, dictionaries and tuples
-
-### Tutorial 16*
+- THIS SHOULD HAVE BEEN COVERED IN TUTORIAL 1
 - variable unpacking
