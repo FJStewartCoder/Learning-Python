@@ -58,7 +58,7 @@ You will learn how to get user input and how to change the type of data.
 - string manipulation (slicing and string functions)
 
 ### Tutorial 10*
-- functions
+- functions (do the Jason activity thing as the task)
 - scope (global and local)
 
 ### Tutorial 11*
