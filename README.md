@@ -52,3 +52,7 @@ You will learn when and how to use sets and dictionaries.
 ### Tutorial 8
 Learn about inputs and type casting.
 You will learn how to get user input and how to change the type of data.
+
+### Tutorial 9
+Learn about string formatting and manipulation.  
+You will learn how to format strings more easily and manipulate them using built-in functions.
