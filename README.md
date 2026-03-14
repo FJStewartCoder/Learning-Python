@@ -61,9 +61,6 @@ You will learn how to format strings more easily and manipulate them using built
 Learn about functions and the concept of scope.  
 You will learn how to create and use functions as well as learn about the concept of scope.
 
-TASK: the Jason activity thing as the task)
-Scope: global and local
-
 ### Tutorial 11*
 - file handling
 
