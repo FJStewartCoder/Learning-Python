@@ -7,15 +7,36 @@
 # use string formatting to improve your strings
 
 # SPECIAL CHARACTERS
-# ANSI and escape codes
+# there are some special characters (generally applied, not just Python) that allow you to show or do special things
+# these fall into the categories of ANSI or escape codes
 
+# ANSI CODES
+# the below resource is incredible for showing all of the ANSI codes
+# https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797
 
+# ESCAPE CODES
+# escape codes are characters that allow you to do special effects such as a newline or a tab
+# all escape codes begin with a backward slash \
+# to use the actual backward slash (for some reason) use two in a row \\
 
+# BACKSLASH
+# used for a single backslash (a single one tries to become an escape code and causes errors)
+backslash = '\\'
 
-# ADD CONTENT
+# NEWLINE
+# after this character, a newline begins
+newline = '\n'
 
+# TAB
+# writes the four space tab character
+tab = '\t'
 
-
+# RETURN CARRIAGE
+# returns the place of writing to the start of the line
+# for example 'Hello\rWorld' would show as 'World' because the writing begins back at the start after the return carriage
+# another example 'areallylongwordorsomething \rBob' would become 'Boballylongwordorsomething '
+# it begins writing back at the start and overwrites the current string
+return_carriage = '\r'
 
 
 # FORMATTING
@@ -71,11 +92,106 @@ sliced_message = message[:5]
 
 # for the more important (and the ones you are most likely to use) see below:
 
+example_string = 'hello, world!'
 
-# ADD CONTENT
+# STRING CASE
+# these functions all relate to switching the case of characters
+# each function returns a new string (just using the function will not modify the string)
 
+# CAPITALISATION
+# you can capitalise the first character of a string as shown below
+example_string = example_string.capitalize()
 
-# .strip
-# .split
-# .join
-#  many more ...
+# LOWERCASE
+# to convert all characters to lowercase (useful when getting user input) use the below function
+example_string = example_string.lower()
+
+# UPPERCASE
+# to convert all characters to uppercase (useful when getting user input also) use the below function
+example_string = example_string.upper()
+
+# PATTERN FINDING
+# these functions allow you to find where certain patterns occur in a string
+
+# FIND / INDEX
+# you can find a string or character in a string using either of the below functions
+# these functions return the index where the pattern is found
+
+found_index = example_string.find('H')  # returns -1 if not found
+found_index = example_string.index('WORLD')  # causes an error if not found
+
+# CONDITIONS
+# none of these will be covered here because they are only useful in very specific scenarios
+# there are usually better things you can do than use these
+# all of these functions begin with is...()
+
+# WHITESPACE REMOVAL
+# when getting user input (or some other wierd scenarios) you may encounter whitespace around the string
+# whitespace if defined as a sequence of space characters (' ') before or after the piece of data
+# for example '    my name is Bob     '
+
+# you can remove whitespace from strings using the below functions
+# as before, this returns the new string and does not modify the current string
+
+example_string = '  my name is Bob    '
+
+# lstrip removes whitespace from only the start of the string
+new_string = example_string.lstrip()
+
+# rstrip removes whitespace from only the right side of the string
+new_string = example_string.rstrip()
+
+# strip removes whitespace from both sides of the string
+new_string = example_string.strip()
+
+# .strip is equivalent to the below example
+new_string = example_string.rstrip().lstrip()
+
+# DIVISION
+# you can divide a string into a list of strings, based on a seperator character, by using the split methods
+# this is useful in data parsing and user input
+# these functions return a list
+
+example_string = 'BOB,JASON,TINA'
+
+# use the .split function, with a seperator character, to split the character into a list of strings
+# here with list will contain ['BOB', 'JASON', 'TINA']
+names_list = example_string.split(',')
+
+# \n is a new line
+example_string = 'Bob\nTina\nJason'
+
+# you can also split by line
+names_list = example_string.splitlines()
+
+# this is equivalent to
+names_list = example_string.split('\n')
+
+# OTHER
+# these other functions are also useful but don't have a category
+# they each return a different value
+
+# REPLACEMENT
+# replacement involves replacing some characters with other characters
+
+# you use .replace to replace string a with string b
+# this function returns a new string
+new_string = example_string.replace('a', 'b')
+
+# JOINING
+# you can create a join of an iterator of strings as shown below
+# this function returns a single string
+
+# the first string here (',') is the joining string
+# each item in the list of names will be seperated by the joining character
+# this will return 'BOB,TINA,JOHN,JASON'
+new_string = ','.join(['BOB', 'TINA', 'JOHN', 'JASON'])
+
+# COUNTING
+# the count function is used to count the number of occurances of a string within another string
+
+example_string = 'Apples and Bananas'
+
+# use the .count function to get the number of occurances of a string in another string
+# this will count the number of 'a's in the example string
+number_of_a = example_string.count('a')

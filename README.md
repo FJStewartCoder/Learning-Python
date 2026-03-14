@@ -53,9 +53,9 @@ You will learn when and how to use sets and dictionaries.
 Learn about inputs and type casting.
 You will learn how to get user input and how to change the type of data.
 
-### Tutorial 9*
-- string formatting
-- string manipulation (slicing and string functions)
+### Tutorial 9
+Learn about string formatting and manipulation.  
+You will learn how to format strings more easily and manipulate them using built-in functions.
 
 ### Tutorial 10*
 - functions (do the Jason activity thing as the task)
@@ -74,5 +74,6 @@ You will learn how to get user input and how to change the type of data.
 - variable unpacking should be included in tutorial 1
 - relevant in-built functions should be included in each tutorial
 - e.g len(), range() in loops
+- e.g list methods
 - add additional resources
 - add some mini-projects to test the skills (Tutorial-Password-Manager)
