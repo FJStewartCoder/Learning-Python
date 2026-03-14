@@ -57,9 +57,12 @@ You will learn how to get user input and how to change the type of data.
 Learn about string formatting and manipulation.  
 You will learn how to format strings more easily and manipulate them using built-in functions.
 
-### Tutorial 10*
-- functions (do the Jason activity thing as the task)
-- scope (global and local)
+### Tutorial 10
+Learn about functions and the concept of scope.  
+You will learn how to create and use functions as well as learn about the concept of scope.
+
+TASK: the Jason activity thing as the task)
+Scope: global and local
 
 ### Tutorial 11*
 - file handling
@@ -75,5 +78,16 @@ You will learn how to format strings more easily and manipulate them using built
 - relevant in-built functions should be included in each tutorial
 - e.g len(), range() in loops
 - e.g list methods
-- add additional resources
-- add some mini-projects to test the skills (Tutorial-Password-Manager)
+
+### Additional Resources
+- W3Schools
+
+### Mini-Projects
+EACH MINI-PROJECT NEEDS TO HAVE A DIFFICULTY RATING AND WHICH TUTORIALS ARE REQUIRED
+
+- Basic Password Manager
+- Basic Login
+- Number Guessing Game
+- Menu System
+- Wordle Copy
+- Naughts and Crosses (Tic-Tac-Toe)
