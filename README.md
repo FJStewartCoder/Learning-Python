@@ -56,3 +56,7 @@ You will learn how to get user input and how to change the type of data.
 ### Tutorial 9
 Learn about string formatting and manipulation.  
 You will learn how to format strings more easily and manipulate them using built-in functions.
+
+### Tutorial 10
+Learn about functions and the concept of scope.  
+You will learn how to create and use functions as well as learn about the concept of scope.
