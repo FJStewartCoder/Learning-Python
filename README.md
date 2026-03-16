@@ -62,11 +62,12 @@ Learn about functions and the concept of scope.
 You will learn how to create and use functions as well as learn about the concept of scope.
 
 ### Tutorial 11
-Learn about reading and writing to files.
+Learn about reading and writing to files.  
 You will learn about how to open, read, write and close files.
 
-### Tutorial 12*
-- modules
+### Tutorial 12
+Learn about modules.  
+You will learn about what modules are and how to use them.
 
 ### Tutorial 13*
 - error handling
