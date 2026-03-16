@@ -50,7 +50,7 @@ Learn about the set and dictionary data types.
 You will learn when and how to use sets and dictionaries.
 
 ### Tutorial 8
-Learn about inputs and type casting.
+Learn about inputs and type casting.  
 You will learn how to get user input and how to change the type of data.
 
 ### Tutorial 9
@@ -60,3 +60,11 @@ You will learn how to format strings more easily and manipulate them using built
 ### Tutorial 10
 Learn about functions and the concept of scope.  
 You will learn how to create and use functions as well as learn about the concept of scope.
+
+### Tutorial 11
+Learn about reading and writing to files.  
+You will learn about how to open, read, write and close files.
+
+### Tutorial 12
+Learn about modules.  
+You will learn about what modules are and how to use them.
