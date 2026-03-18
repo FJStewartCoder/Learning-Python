@@ -94,3 +94,26 @@ dict_variable = {
 # NONE (None)
 # it stores nothing
 none_variable = None
+
+# VARIABLE UNPACKING
+# variable unpacking allows for assignment of data to multiple variables at once
+
+# set unpack1=10 and unpack2=15
+unpack1, unpack2 = 10, 15
+
+# it is also possible to unpack from a list
+# this becomes useful later when learning about for loops
+unpack3, unpack4 = [20, 25]
+
+# use the underscore _ variable to act as a blank
+# _ is not a variable name and is used as a placeholder (also useful in for loops)
+unpack5, _, unpack6 = [30, 35, 40]
+
+# swapping variables
+swap1 = 10
+swap2 = 20
+
+# you can use this to swap two variables
+# swap1 becomes swap2
+# swap2 becomes swap1 (the original value of swap1)
+swap1, swap2 = swap2, swap1

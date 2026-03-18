@@ -81,10 +81,10 @@ Learn about basic error handling.
 Learn about the try statement and how it can be used to catch expections.
 
 ### Notes/To Do
-- variable unpacking should be included in tutorial 1
-- relevant in-built functions should be included in each tutorial
-- e.g len(), range() in loops
-- e.g list methods
+- T4 - explain the use of brackets in conditional evaluation
+- T5 - explain range(), zip() and enumerate()
+- T6 - explain len(), append(), insert(), remove() and more
+- T7 - explain add() and more
 
 ### Mini-Projects
 EACH MINI-PROJECT NEEDS TO HAVE A DIFFICULTY RATING AND WHICH TUTORIALS ARE REQUIRED
