@@ -18,7 +18,14 @@ The examples are mostly bare until mini-projects are the tasks.
 ## More Resources
 This tutorial does not cover everything Python. However, it covers everything that I believe that you need to make a program.  
 You can find additional resources at the following sources:  
-[PUT SOME LINKS HERE]()
+- [W3Schools](https://www.w3schools.com/python/default.asp) (8/10 - More of documentation rather than a guide through learning Python)
+- [Mosh Hamedani](https://www.youtube.com/watch?v=_uQrJ0TkZlc) (8/10 - Full course, great coverage. A bit outdated and difficult to follow)
+- [Bro Code](https://www.youtube.com/watch?v=ix9cRaBkVe0&list=PLZPZq0r_RZON03iKBjYOsOKr1-TD7z2lH) (9/10 - Really clear and insightful)
+- [freeCodeCamp](https://www.youtube.com/watch?v=rfscVS0vtbw) (?/10 - Never used but popular)
+- [Python](https://www.python.org/) (?/10 - Python themselves are likely to have good tutorials)
+- [Programiz](https://www.programiz.com/python-programming/online-compiler/) (?/10 - Good online interpreter and some tutorials)
+
+I learned using the top two resources and my programming went well.
 
 ## Contents
 ### Tutorial 1
@@ -69,17 +76,15 @@ You will learn about how to open, read, write and close files.
 Learn about modules.  
 You will learn about what modules are and how to use them.
 
-### Tutorial 13*
-- error handling
+### Tutorial 13
+Learn about basic error handling.  
+Learn about the try statement and how it can be used to catch expections.
 
 ### Notes/To Do
 - variable unpacking should be included in tutorial 1
 - relevant in-built functions should be included in each tutorial
 - e.g len(), range() in loops
 - e.g list methods
-
-### Additional Resources
-- W3Schools
 
 ### Mini-Projects
 EACH MINI-PROJECT NEEDS TO HAVE A DIFFICULTY RATING AND WHICH TUTORIALS ARE REQUIRED
