@@ -73,3 +73,57 @@ while number < 10:
     number = number + 1
 
 print('The loop ended')
+
+
+# USEFUL FUNCTIONS
+# these are some functions that you may need when handling loops
+# they are in order of importance with the first function being most important
+
+# RANGE
+# the range function generates a list of numbers from a to b in increments of c
+
+# will loop 20 times
+# from 0 to 20 (20 is not included; the biggest number is 19) in increments of 1
+for number in range(20):
+    print(number)
+
+# will loop 10 times
+# from 10 to 20 (not including 20) in increments of 1
+for number in range(10, 20):
+    print(number)
+
+# will loop 5 times
+# from 10 to 20 (not including 20) in increments of 2
+for number in range(10, 20, 2):
+    print(number)
+
+
+# ENUMERATE
+# the enumerate function allows you to loop over an iterable with it's index
+
+some_list = [1, 2, 3, 4, 5, 6, 7, 8]
+
+# index is the list index and number is the actual value
+# this makes use of variable unpacking
+# this is useful for a menu system
+for index, number in enumerate(some_list):
+    print(index, number)
+
+# use start= to set the start value of index
+# index will start at 20 here
+for index, number in enumerate(some_list, start=20):
+    print(index, number)
+
+
+# ZIP
+# the zip function will combine two or more lists in a zip fashion
+# all first values will be together, all second values will be together etc
+
+# the lists should be the same length
+list1 = [10, 20, 30]
+list2 = [1, 2, 3]
+
+# lists will be combined like a zip
+# variable unpacking can be used again
+for num1, num2 in zip(list1, list2):
+    print(num1, num2)

@@ -81,7 +81,6 @@ Learn about basic error handling.
 Learn about the try statement and how it can be used to catch expections.
 
 ### Notes/To Do
-- T5 - explain range(), zip() and enumerate()
 - T6 - explain len(), append(), insert(), remove() and more
 - T7 - explain add() and more
 
