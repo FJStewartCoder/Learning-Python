@@ -81,8 +81,7 @@ Learn about basic error handling.
 Learn about the try statement and how it can be used to catch expections.
 
 ### Notes/To Do
-- T6 - explain len(), append(), insert(), remove() and more
-- T7 - explain add() and more
+- T7 - explain .add() and more
 
 ### Mini-Projects
 EACH MINI-PROJECT NEEDS TO HAVE A DIFFICULTY RATING AND WHICH TUTORIALS ARE REQUIRED

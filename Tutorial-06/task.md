@@ -18,5 +18,5 @@ See what happens.
 **don't be disappointed if it crashes or doesn't work*
 
 Try some list slices and output the results.  
-
 Try some negative indexing.  
+Try some list functions, especially len().
