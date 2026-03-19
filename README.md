@@ -80,15 +80,8 @@ You will learn about what modules are and how to use them.
 Learn about basic error handling.  
 Learn about the try statement and how it can be used to catch expections.
 
-### Notes/To Do
-- T7 - explain .add() and more
-
 ### Mini-Projects
 EACH MINI-PROJECT NEEDS TO HAVE A DIFFICULTY RATING AND WHICH TUTORIALS ARE REQUIRED
 
-- Basic Password Manager
-- Basic Login
-- Number Guessing Game
-- Menu System
 - Wordle Copy
 - Naughts and Crosses (Tic-Tac-Toe)
