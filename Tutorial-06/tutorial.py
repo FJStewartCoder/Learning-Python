@@ -96,3 +96,93 @@ smaller_list = example_list[2:]
 
 # this shows the slice
 print(smaller_list)
+
+# LIST FUNCTIONS
+# there are several built-in functions to help modify lists
+# there are more functions than this but these are the most common useful ones
+
+# reset the list to be blank
+example_list = []
+
+# APPEND
+# to add a value to the end of the list, use the append function  
+
+# this adds the number 10 to the end of the list
+# this function returns nothing
+example_list.append(10)
+
+# COPY
+# the copy function makes a copy of the current list
+# this function returns a list
+copied_list = example_list.copy()
+
+# EXTEND
+# extend a list with another list
+other_list = [1, 2, 3]
+
+# adds the entirety of other_list to the end of example_list
+# this function returns nothing
+example_list.extend(other_list)
+
+# INDEX
+# get the index of an item
+
+# this gets the index of the value 2 in the example list
+# this function returns the index of the value if found
+# otherwise, it causes an error
+found_index = example_list.index(2)
+
+# INSERTION
+# insert a value at a specific index
+
+# this inserts the value of 20 at index 0
+# so, the value at index a will be value b
+# all other values after are moved across by one index
+
+# the function returns nothing
+example_list.insert(0, 20)
+
+# POP
+# remove a value based on the index
+
+# will remove the value at index 2 and move all values after across by negative one index 
+# this function returns nothing
+example_list.pop(2)
+
+# REMOVE
+# remove the first instance of a value if it exists
+
+# this will remove the first instance of the value 1 from the list
+# an error will occur if the value is not in the list
+# the function returns nothing
+example_list.remove(1)
+
+# REVERSE 
+# reverse the list
+
+# this will reverse the order of the list
+# the function returns nothing
+example_list.reverse()
+
+# SORTING
+# sort a list (order is customisable)
+# by default, sorts in ascending order (smallest value first)
+
+# this will sort the current list
+# this function returns nothing
+
+# you can pass in, optionally, the reverse keyword which will sort in ascending order
+# you can also pass in, optionally, a key keyword which is a function used to determine how the sorting will happen
+example_list.sort(key=lambda x: x, reverse=True)
+
+# this function is the same as .sort but returns the sorted list
+# the same arguments can be passed to sorted
+example_list = sorted(example_list)
+
+# LENGTH
+# get the length of a list
+# this function works on strings also
+
+# this gets the number of items in example list
+# the function returns an integer
+length = len(example_list)

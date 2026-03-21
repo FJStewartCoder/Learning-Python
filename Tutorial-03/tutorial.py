@@ -69,6 +69,17 @@ greater_than_or_equal2 = 123.34 >= 456.789
 less_than_or_equal1 = 12 <= 12
 less_than_or_equal2 = 654.321 <= 123.45
 
+# BRACKETS
+# brackets show evaluation priority
+
+# for example, you want to add 2 to 5 then multiply by 10
+# incorrectly, you could write the below (multiply is evalutated first)
+some_number = 10 * 2 + 5 
+
+# this now correctly shows priority in which order things need to be done
+# this works with all operators as shown later
+some_number = 10 * (2 + 5)
+
 # LOGICAL
 # AND
 # the keyword "and" checks if two values are both true

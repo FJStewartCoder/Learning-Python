@@ -79,3 +79,6 @@ You will learn about what modules are and how to use them.
 ### Tutorial 13
 Learn about basic error handling.  
 Learn about the try statement and how it can be used to catch expections.
+
+### Mini-Projects
+Find mini-projects in the Mini-Projects directory.
